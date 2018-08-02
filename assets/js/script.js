@@ -13,6 +13,11 @@
         $("#inputSite").val('Клиент заказал обратный звонок');
     });
 
+    $("#btn-callback-footer").on("click", function(){
+        $("#callback-modal").modal('show');
+        $("#inputSite").val('Клиент заказал обратный звонок');
+    });
+
     $("#lessons-1").on("click", function(){
         $("#modal-lessons1").modal('show');
     });
