@@ -3047,6 +3047,17 @@ a.phone-a {
     .table-responsive {
       display: table !important;
     }
+
+    .main-label {
+      position: absolute;
+      top: 150px;
+    }
+
+    .header-main {
+      position: absolute; 
+      top: 0; 
+      font-weight: bold;
+    }
 }
 
 /* XS */
@@ -3143,5 +3154,16 @@ a.phone-a {
     div.container.container-table {
       padding-left: 0 !important;
       padding-right: 0 !important;
+    }
+
+    .main-label {
+      position: absolute;
+      top: 120px;
+    }
+
+    .header-main {
+      position: absolute; 
+      top: -50px; 
+      font-weight: bold;
     }
 }
